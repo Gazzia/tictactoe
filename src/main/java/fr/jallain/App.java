@@ -6,7 +6,7 @@ package fr.jallain;
 public final class App {
 
 	private static final void newGame() {
-		System.out.println("New");
+		new Partie();
 	}
 
 	private static final void displayMainMenu() {
