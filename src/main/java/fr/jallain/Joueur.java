@@ -7,4 +7,8 @@ public class Joueur {
 		this.symbole = symbole;
 	}
 
+	protected boolean play(Grille grille, int x, int y) {
+		return grille.setValeur(x, y, this.symbole);
+	}
+
 }
